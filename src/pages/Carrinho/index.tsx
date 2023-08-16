@@ -6,7 +6,9 @@ import topo from '../../../assets/topo.png'
 const width = Dimensions.get('screen').width;
 
 export default function Carrinho (){
-    return <Image source={topo} style={estilos.topo}/>
+    return <>
+    <Image source={topo} style={estilos.topo}/>
+    </> 
 }
 
 const estilos = StyleSheet.create({
