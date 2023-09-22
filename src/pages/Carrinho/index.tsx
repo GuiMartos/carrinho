@@ -7,11 +7,11 @@ import Topo from './components/Topo';
 export default function Carrinho(){
     return <>
 
+    <Topo/>
     <View style={estilos.carrinho}>
-        <Topo/>
-
         <Detalhe/>
     </View>
+
     </>
 }
 const estilos= StyleSheet.create({
