@@ -1,5 +1,6 @@
 import React from 'react';
 import {Image, StyleSheet, Text, View} from 'react-native';
+import Detalhe from './components/Detalhe';
 
 import Topo from './components/Topo';
 
@@ -9,6 +10,7 @@ export default function Carrinho(){
     <View style={estilos.carrinho}>
         <Topo/>
 
+        <Detalhe/>
     </View>
     </>
 }
