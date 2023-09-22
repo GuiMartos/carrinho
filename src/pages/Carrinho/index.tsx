@@ -1,11 +1,13 @@
 import React from 'react';
-import {Dimensions, Image, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, View} from 'react-native';
 import logo from '../../../assets/logo.png';
+import Topo from './components/Topo';
 
 export default function Carrinho(){
     return <>
 
     <View style={estilos.carrinho}>
+        <Topo/>
 
         <Text style={estilos.titulocarrinho}>Carrinho de compra</Text>
         <View style={estilos.fazenda}>
