@@ -12,7 +12,7 @@ type Props = {
 export default function Topo({titulo}: Props) {
     return <>
         <Image source={topo} style={estilos.topo}></Image>
-        <Text style={estilos.titulo}>Detalhe do carrinho</Text>
+        <Text style={estilos.titulo}>{titulo}</Text>
     </>
 }
 
